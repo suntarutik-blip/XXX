@@ -22,4 +22,5 @@ COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
 # Запускаем скрипт (точка входа)
+
 CMD["/start.sh"]
